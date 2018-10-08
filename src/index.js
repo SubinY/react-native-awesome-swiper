@@ -47,7 +47,7 @@ export default class Swiper extends Component<Props> {
   componentDidMount() {
     if (this.props.images.length > 1) {
       this.scrollView.scrollTo({x: width, y: 0, animated: false });
-      // this.setInterval();
+      this.setInterval();
     }
   }
 
